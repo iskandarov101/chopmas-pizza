@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+  <title>Chopmas-Pizza</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <section>
+    <div class="container">
+      <form method="POST" action="https://acho.htmlacademy.ru" class="js-form">
+        <h1 class="text-center my-4">"Chopmas-Pizza"</h1>
+
+        <div class="d-flex">
+          <div class="left">
+            <div class="mb-5">
+              <strong>Noni qanday bo'lsin?</strong>
+              <select class='js-select form-control mt-2 mb-4'>
+                <option disabled selected">Non turini tanlang</option>
+              </select>
+            </div>
+
+            <div class="js-kattaligi">
+              <strong class="d-block mb-3">Kattaligi</strong>
+            </div>
+
+            <div>
+              <strong>Usting nima solaylik?</strong>
+              <div class="js-ustiga d-flex flex-wrap"></div>
+            </div>
+
+            <div class="js-qoshimcha d-flex">
+              <strong>Qo'shimchalar</strong>
+            </div>
+          </div>
+
+          <!-- RIGHT SIDE OUTPUT -->
+          <div class="right">
+            <div>
+              <p><strong>Non : </strong> <span class="js-non-output"></span></p>
+            </div>
+
+            <div>
+              <p><strong>Kattaligi : </strong> <span class="js-kattaligi-output"></span></p>
+            </div>
+            <div class="js-toppinng-output">
+              <ul class="js-ustiga-list"></ul>
+
+            </div>
+            <button class="btn btn-warning">Order</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+
+
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>

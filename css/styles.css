@@ -1,0 +1,43 @@
+.left {
+  width: 100%;
+  max-width: 65%;
+  border-right: 1px solid #333;
+  padding: 0 1.5%;
+}
+
+.right {
+  width: 100%;
+  max-width: 32%;
+  padding: 0 1.5%;
+}
+
+.radio-label {
+  display: inline-flex;
+  border-radius: 50%;
+}
+.radio-btn {
+  border-radius: 50%;
+  text-align: center;
+  border: 1px solid #999;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  padding-top: 30px;
+  cursor: pointer;
+}
+
+.radio-input:checked + .radio-btn {
+  background-color: tomato;
+  color: #fff;
+  font-weight: bolder;
+}
+.checkbox-big {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #999;
+  margin-right: 10px;
+}
+
+.checkbox-input:checked + .checkbox-big {
+  background-color: red;
+}
